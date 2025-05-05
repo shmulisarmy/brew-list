@@ -1,0 +1,101 @@
+abseil			libaec			npth
+aom			libarchive		nspr
+apache-arrow		libass			nss
+aribb24			libassuan		numpy
+asciiquarium		libb2			nvm
+ata			libbluray		ocaml
+autoconf		libde265		odin
+aws-c-auth		libdeflate		ollama
+aws-c-cal		libevent		opam
+aws-c-common		libgcrypt		openblas
+aws-c-compression	libgeotiff		opencore-amr
+aws-c-event-stream	libgit2			openexr
+aws-c-http		libgit2@1.8		openjdk
+aws-c-io		libgpg-error		openjdk@21
+aws-c-mqtt		libheif			openjpeg
+aws-c-s3		libidn2			openssl@3
+aws-c-sdkutils		libkml			opus
+aws-checksums		libksba			p11-kit
+aws-crt-cpp		liblerc			pango
+aws-sdk-cpp		libmicrohttpd		pcre2
+berkeley-db@5		libmpc			perl
+brotli			libnghttp2		pinentry
+c-ares			libogg			pipx
+c-blosc			libpng			pixman
+c2048			libpq			pkgconf
+ca-certificates		librist			poppler
+cairo			librttopo		popt
+cfitsio			libsamplerate		portaudio
+cjson			libsndfile		proj
+cmake			libsodium		protobuf
+cmatrix			libsoxr			protobuf@29
+cocoapods		libspatialite		pypy
+colordiff		libssh			pypy3.10
+cpufetch		libssh2			python-packaging
+cypher-shell		libtasn1		python@3.13
+dav1d			libtiff			qhull
+deno			libtommath		railway
+docker			libtool			rav1e
+docker-buildx		libunibreak		raylib
+docker-completion	libunistring		rbenv
+dotnet			libusb			re2
+epsilon			libuv			readline
+espeak			libvidstab		readosm
+exiftool		libvmaf			redis
+expat			libvorbis		rubberband
+ffmpeg			libvpx			ruby
+figlet			libvterm		ruby-build
+flac			libwebsockets		rust
+fontconfig		libx11			screenresolution
+freetype		libxau			sdl12-compat
+freexl			libxcb			sdl2
+frei0r			libxdmcp		shared-mime-info
+fribidi			libxext			snappy
+fzf			libxml2			spatialite-tools
+gcc			libxrender		speedtest-cli
+gdal			libyaml			speex
+gdbm			little-cms2		sqlite
+geos			lld			srt
+gettext			llvm			surreal
+gh			llvm@18			svt-av1
+giflib			llvm@19			tcl-tk
+git			lolcat			tcl-tk@8
+glfw			lpeg			tesseract
+glib			lsd			thefuck
+gmp			lua			theora
+gnupg			luajit			thrift
+gnutls			luv			tree
+go			lz4			tree-sitter
+gpatch			lzo			ttyd
+gpgme			m4			unbound
+graphite2		mas			unibilium
+grpc			mbedtls			unixodbc
+harfbuzz		minizip			uriparser
+hdf5			mongodb-atlas-cli	utf8proc
+helix			mongodb-community	vhs
+highway			mongodb-community@6.0	webp
+htop			mongodb-database-tools	x264
+icu4c@75		mongosh			x265
+icu4c@76		mpdecimal		xerces-c
+icu4c@77		mpfr			xorgproto
+imath			mpg123			xvid
+ios-deploy		msgpack			xz
+isl			mypy			yarn
+jpeg-turbo		mysql			yazi
+jpeg-xl			ncurses			z3
+json-c			neo4j			zeromq
+kotlin			neofetch		zimg
+krb5			neovim			zlib
+lame			netcdf			zstd
+lazygit			nettle
+leptonica		node
+
+==> Casks
+cursor				spotify
+firefox@developer-edition	visual-studio-code
+google-chrome			visual-studio-code@insiders
+notion				warp
+obsidian			windsurf
+pycharm				youtube-downloader
+raycast				zed
+replit

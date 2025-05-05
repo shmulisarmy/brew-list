@@ -1,0 +1,7 @@
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/testing-out-docker-with-CSharp
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/appsettings.Development.json
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/appsettings.json
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/testing-out-docker-with-CSharp.dll
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/testing-out-docker-with-CSharp.deps.json
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/testing-out-docker-with-CSharp.runtimeconfig.json
+/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/app-publish/testing-out-docker-with-CSharp.pdb

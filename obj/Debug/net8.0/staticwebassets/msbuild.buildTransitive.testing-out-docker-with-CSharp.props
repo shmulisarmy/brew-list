@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/testing-out-docker-with-CSharp.props" />
+</Project>

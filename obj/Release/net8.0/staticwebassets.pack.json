@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/obj/Release/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css",
+      "PackagePath": "staticwebassets/testing-out-docker-with-CSharp.bundle.scp.css"
+    },
+    {
+      "Id": "/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/workspaces/brew-list/fastapi-project/testing-out-docker-with-CSharp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.testing-out-docker-with-CSharp.props",
+      "PackagePath": "build\\testing-out-docker-with-CSharp.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.testing-out-docker-with-CSharp.props",
+      "PackagePath": "buildMultiTargeting\\testing-out-docker-with-CSharp.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.testing-out-docker-with-CSharp.props",
+      "PackagePath": "buildTransitive\\testing-out-docker-with-CSharp.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.testing-out-docker-with-CSharp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

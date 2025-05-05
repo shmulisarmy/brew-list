@@ -1,0 +1,82 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<input placeholder="Search todos..." @bind="searchTerm" class="form-control mb-2" />
+
+<div class="mb-2">
+    <input @bind="newTodoName" placeholder="New todo name" class="form-control" />
+    <button class="btn btn-primary mt-1" @onclick="AddTodo">Add Todo</button>
+</div>
+
+<button class="btn btn-warning" @onclick="MyLogger">Click me</button>
+
+@foreach (var todo in FilteredTodos)
+{
+    <div class="todo-item d-flex align-items-center mb-1">
+        <input type="checkbox" class="form-check-input me-2" @bind="@todo.IsComplete" />
+        <span class="flex-grow-1">@todo.Name</span>
+        <button class="btn btn-danger btn-sm ms-2" @onclick="() => DeleteTodo(todo.Id)">Delete</button>
+    </div>
+}
+
+@code {
+    class Todo
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public bool IsComplete { get; set; }
+    }
+
+    static List<Todo> todos = new List<Todo>
+    {
+        new Todo { Id = 1, Name = "Todo 1", IsComplete = true },
+        new Todo { Id = 2, Name = "Todo 2", IsComplete = false },
+        new Todo { Id = 3, Name = "Todo 3", IsComplete = true },
+        new Todo { Id = 4, Name = "Todo 4", IsComplete = false },
+        new Todo { Id = 5, Name = "Todo 5", IsComplete = true },
+    };
+
+    string newTodoName = "";
+    string searchTerm = "";
+
+    IEnumerable<Todo> FilteredTodos =>
+        string.IsNullOrWhiteSpace(searchTerm)
+            ? todos
+            : todos.Where(t => t.Name.Contains(searchTerm, StringComparison.OrdinalIgnoreCase));
+
+    void AddTodo()
+    {
+        if (!string.IsNullOrWhiteSpace(newTodoName))
+        {
+            var newId = todos.Any() ? todos.Max(t => t.Id) + 1 : 1;
+            todos.Add(new Todo { Id = newId, Name = newTodoName, IsComplete = false });
+            newTodoName = "";
+        }
+    }
+
+    void DeleteTodo(int id)
+    {
+        var todo = todos.FirstOrDefault(t => t.Id == id);
+        if (todo != null)
+        {
+            todos.Remove(todo);
+        }
+    }
+
+    void MyLogger()
+    {
+        Console.WriteLine("Button clicked!");
+        if (todos.Count > 0)
+        {
+            Console.WriteLine(todos[0].Name);
+            todos[0].Name = "Updated Todo 1";
+            Console.WriteLine(todos[0].Name);
+            todos[0].IsComplete = false;
+            Console.WriteLine(todos[0].IsComplete);
+            todos[0].Id = 10;
+        }
+    }
+}
