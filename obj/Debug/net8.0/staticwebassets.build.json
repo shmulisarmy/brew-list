@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JZSKNAop8c0pUs+dveDNmdvyupjH46xbA/TCNzZfUGk=",
+  "Hash": "hO795MTuRQe+3C76VX8Tq35z0Ud9eTYGoFPdIUJqjy4=",
   "Source": "testing-out-docker-with-CSharp",
   "BasePath": "_content/testing-out-docker-with-CSharp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "testing-out-docker-with-CSharp/wwwroot",
       "Source": "testing-out-docker-with-CSharp",
-      "ContentRoot": "/workspaces/brew-list/wwwroot/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/wwwroot/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/bundle/testing-out-docker-with-CSharp.styles.css",
+      "Identity": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/bundle/testing-out-docker-with-CSharp.styles.css",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Computed",
-      "ContentRoot": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/bundle/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/bundle/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "testing-out-docker-with-CSharp.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/bundle/testing-out-docker-with-CSharp.styles.css"
+      "OriginalItemSpec": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/bundle/testing-out-docker-with-CSharp.styles.css"
     },
     {
-      "Identity": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css",
+      "Identity": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Computed",
-      "ContentRoot": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/projectbundle/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/projectbundle/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "testing-out-docker-with-CSharp.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css"
+      "OriginalItemSpec": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css"
     },
     {
-      "Identity": "/workspaces/brew-list/wwwroot/app.css",
+      "Identity": "/Users/shmuli/repositories/online-tester/wwwroot/app.css",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/brew-list/wwwroot/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/wwwroot/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot/app.css"
     },
     {
-      "Identity": "/workspaces/brew-list/wwwroot/bootstrap/bootstrap.min.css",
+      "Identity": "/Users/shmuli/repositories/online-tester/wwwroot/bootstrap/bootstrap.min.css",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/brew-list/wwwroot/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/wwwroot/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "/workspaces/brew-list/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Identity": "/Users/shmuli/repositories/online-tester/wwwroot/bootstrap/bootstrap.min.css.map",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/brew-list/wwwroot/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/wwwroot/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "/workspaces/brew-list/wwwroot/favicon.png",
+      "Identity": "/Users/shmuli/repositories/online-tester/wwwroot/favicon.png",
       "SourceId": "testing-out-docker-with-CSharp",
       "SourceType": "Discovered",
-      "ContentRoot": "/workspaces/brew-list/wwwroot/",
+      "ContentRoot": "/Users/shmuli/repositories/online-tester/wwwroot/",
       "BasePath": "_content/testing-out-docker-with-CSharp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

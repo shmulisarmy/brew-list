@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "/workspaces/brew-list/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css",
+      "Id": "/Users/shmuli/repositories/online-tester/obj/Debug/net8.0/scopedcss/projectbundle/testing-out-docker-with-CSharp.bundle.scp.css",
       "PackagePath": "staticwebassets/testing-out-docker-with-CSharp.bundle.scp.css"
     },
     {
-      "Id": "/workspaces/brew-list/wwwroot/app.css",
+      "Id": "/Users/shmuli/repositories/online-tester/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/workspaces/brew-list/wwwroot/bootstrap/bootstrap.min.css",
+      "Id": "/Users/shmuli/repositories/online-tester/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },
     {
-      "Id": "/workspaces/brew-list/wwwroot/bootstrap/bootstrap.min.css.map",
+      "Id": "/Users/shmuli/repositories/online-tester/wwwroot/bootstrap/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Id": "/workspaces/brew-list/wwwroot/favicon.png",
+      "Id": "/Users/shmuli/repositories/online-tester/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {

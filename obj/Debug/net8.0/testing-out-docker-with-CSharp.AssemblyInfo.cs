@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("testing-out-docker-with-CSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d3d9fb0e2894f035cad38fe4b9f6a34b37bdea0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c35285d8d9f6bb82293900cda2d3c5f17158d27")]
 [assembly: System.Reflection.AssemblyProductAttribute("testing-out-docker-with-CSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("testing-out-docker-with-CSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

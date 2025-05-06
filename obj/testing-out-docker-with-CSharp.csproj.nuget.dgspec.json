@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/brew-list/testing-out-docker-with-CSharp.csproj": {}
+    "/Users/shmuli/repositories/online-tester/testing-out-docker-with-CSharp.csproj": {}
   },
   "projects": {
-    "/workspaces/brew-list/testing-out-docker-with-CSharp.csproj": {
+    "/Users/shmuli/repositories/online-tester/testing-out-docker-with-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/brew-list/testing-out-docker-with-CSharp.csproj",
+        "projectUniqueName": "/Users/shmuli/repositories/online-tester/testing-out-docker-with-CSharp.csproj",
         "projectName": "testing-out-docker-with-CSharp",
-        "projectPath": "/workspaces/brew-list/testing-out-docker-with-CSharp.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/brew-list/obj/",
+        "projectPath": "/Users/shmuli/repositories/online-tester/testing-out-docker-with-CSharp.csproj",
+        "packagesPath": "/Users/shmuli/.nuget/packages/",
+        "outputPath": "/Users/shmuli/repositories/online-tester/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/shmuli/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/8.0.8_1/libexec/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

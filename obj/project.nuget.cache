@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4zq+cp/Pq0=",
+  "dgSpecHash": "V2Z/D2sOE8RxF+oz5FP5Qa2KsGM/dAnIPMPPNKe/Xa5E0EjoZhXYzq6UE8ntOQoq+/Ft6ZiMMd7h3tZrG3kiug==",
   "success": true,
-  "projectFilePath": "/workspaces/brew-list/testing-out-docker-with-CSharp.csproj",
+  "projectFilePath": "/Users/shmuli/repositories/online-tester/testing-out-docker-with-CSharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

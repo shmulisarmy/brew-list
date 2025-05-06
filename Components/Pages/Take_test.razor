@@ -1,0 +1,95 @@
+﻿@page "/take-test"
+@rendermode InteractiveServer
+<PageTitle>Take Test</PageTitle>
+
+<h1>Take Test</h1>
+
+
+
+@code{
+    class Question{
+        public string QuestionText { get; set; }
+        public List<string> Answers { get; set; }
+        public string CorrectAnswer { get; set; }
+    }
+
+    List<Question> questions = new List<Question>
+    {
+        new Question { QuestionText = "What is the capital of France?", Answers = new List<string> { "Paris", "London", "Berlin", "Madrid" }, CorrectAnswer = "Paris" },
+        new Question { QuestionText = "What is the capital of Germany?", Answers = new List<string> { "Paris", "London", "Berlin", "Madrid" }, CorrectAnswer = "Berlin" },
+        new Question { QuestionText = "What is the capital of Italy?", Answers = new List<string> { "Paris", "London", "Berlin", "Madrid" }, CorrectAnswer = "Rome" },
+    };
+
+
+    void on_answer(){
+        if (answer_input == current_question.CorrectAnswer)
+        {
+            message_to_user = "Correct!";
+            score += 5;
+            if (!showing_multi_choice)
+            {
+                score += 2;
+                message_to_user += " +2 bonus points";
+            }
+        }
+        else
+        {
+            message_to_user = "Wrong!";
+        }
+        GotoNextQuestion();
+    }
+
+    string message_to_user = "";
+
+    int score = 0;
+
+    int current_question_index = 0;
+    string answer_input = "";
+    bool showing_multi_choice = false;
+    bool commited_to_not_showing_multi_choice = false;
+
+    void GotoNextQuestion()
+    {
+        current_question_index++; 
+        commited_to_not_showing_multi_choice = false;
+        showing_multi_choice = false;  
+        answer_input = "";
+    }
+
+
+    Question current_question => questions[current_question_index];
+}
+
+
+
+
+
+<div>@message_to_user</div>
+
+        <p>@current_question.QuestionText</p>
+
+
+
+
+<h1>Question: @current_question_index / @questions.Count</h1>
+<h1>Score: @score</h1>
+<form @onsubmit="on_answer">
+    
+@if(showing_multi_choice)
+{
+    
+        <select @bind="answer_input">
+@foreach (var answer in current_question.Answers)
+{
+    <option value="@answer">@answer</option>
+}
+        </select>
+} else {
+    <input type="text" @bind="answer_input" />
+    @if(!commited_to_not_showing_multi_choice){
+        <button type="button" @onclick="() => { showing_multi_choice = true; commited_to_not_showing_multi_choice = true; }">Show Multi Choice</button>
+        <button type="button" @onclick="() => { commited_to_not_showing_multi_choice = true; }">dont show multi choice in order to get 2 bonus points</button>
+    }
+}
+<button type="submit">Submit</button>
+</form>
